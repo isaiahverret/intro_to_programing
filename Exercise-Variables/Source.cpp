@@ -107,9 +107,26 @@ int main()
 	//bool e= false
 
 	//system("pause");
-	// returne o ;
+	// returne 0;
 
 	//Example 19 
+
+int cama = 7;
+int camb = 9;
+int hold = 0;
+
+ hold = camb ;
+
+camb = cama ;
+
+ cama = hold ;
+
+printf("%i", cama);
+printf("%i", camb);
+
+system("pause");
+return 0;
+
 
 
 
