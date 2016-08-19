@@ -41,18 +41,48 @@ int main()
 
 
 	////example 3
-/*
+	{
+
+	int cama[3];
+	std::cin >> cama[0] >> cama[1] >> cama[2];
+	int sum = cama[0] + cama[1] + cama[2];
+	if (sum = 0)
+	{
+		for (int i = 2; i >= 0; j--)
+		{
+			for (int j = 2; j >= 0; j--)
+			{
+				if (cama[j] < cama[j - 1])
+				{
+					int temp;
+					temp = cama[j];
+					cama[j] = cama[j - 1];
+					cama[j - 1] = temp
+				}
+			}
+		}
+	}
 
 
-	int a;
-	int b;
-	int c;
-	int d;
-	int e;
-	std::cin >> a >> b >> c >> d >> e*/
+	else if (sum < 0)
+	{
+		for (int i = 2; i >= 0; i--)
+		{
+			for (int j = 2; j >= 0; j--)
+			{
+				if (cama[j] > cama[j - 1])
+				{
+					int temp;
+					temp = cama[j];
+					cama[j] = cama[j - 1];
+					cama[j - 1] = temp;
+				}
+			}
+		}
+	}
+	else
 
-
-
+		std::cout << cama[0] << std::endl << cama [1] 
 
 
 
@@ -94,55 +124,55 @@ int main()
 	int y;
 	std::cin >> x;
 	int evaluate = (x == 0) ? y = 0 : y = 10 / x;
-	std::cout << y << std::endl;*/
+	std::cout << y << std::endl;
+
+
+*/
 
 
 
 
+	/*Example 6*/
 
-
-
-	//Example 6
-
-int plus;
-int min;
-int div;
-int tim;
-int mod;
-int a;
-int b;
-char cama; std::cin >> a >> cama >> b;
-switch ((int)cama) {
-
-case 43:
-	std::cout << a + b;
-
-	break;
-
-case 45:
-	std::cout << a - b;
-
-
-	break;
-case 47:
-
-	std::cout << a / b;
-
-	break;
-case 42:
-
-	std::cout << a * b;
-
-
-	break;
-case 37:
-
-	std::cout << a % b;
-	break;
-default:
-	;
-}
-
+//int plus;
+//int min;
+//int div;
+//int tim;
+//int mod;
+//int a;
+//int b;
+//char cama; std::cin >> a >> cama >> b;
+//switch ((int)cama) {
+//
+//case 43:
+//	std::cout << a + b;
+//
+//	break;
+//
+//case 45:
+//	std::cout << a - b;
+//
+//
+//	break;
+//case 47:
+//
+//	std::cout << a / b;
+//
+//	break;
+//case 42:
+//
+//	std::cout << a * b;
+//
+//
+//	break;
+//case 37:
+//
+//	std::cout << a % b;
+//	break;
+//default:
+//	;
+//}
+//
 
 
 
@@ -153,6 +183,8 @@ default:
 
 
 //example 7
+
+
 
 
 
