@@ -183,6 +183,12 @@ int main()
 //
 //Answer 6 
 
+//Example 7 
+
+char A;
+char G;
+
+
 
 
 
