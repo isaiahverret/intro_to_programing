@@ -18,20 +18,20 @@ int main()
 */
 	
 
-//Example 2
-
-//int x;
-//int y; 
-//std::cin >> x >> y;
-//if (x < y)
+////Example 2
+//
+//int cama;
+//int camb; 
+//std::cin >> cama >> camb;
+//if (cama < camb)
 //{
-//std::cout << y << std::endl;
+//std::cout << cama << std::endl;
 //}
 //
-//else if (x > y);
+//else if (cama > camb);
 //
 //{
-//std::cout << x << std::endl;
+//std::cout << camb << std::endl;
 //}
 
 
@@ -41,14 +41,15 @@ int main()
 
 
 	////example 3
+/*
 
 
-
-	//int a = 2;
-	//int b = 4;
-	//int c = 6;
-	//int d = 8;
-	//int e = 10;
+	int a;
+	int b;
+	int c;
+	int d;
+	int e;
+	std::cin >> a >> b >> c >> d >> e*/
 
 
 
@@ -63,8 +64,8 @@ int main()
 
 
 // Example 4
-	
-	/*int choice;
+	/*
+	int choice;
 	std::cin >> choice;
 	switch(choice)
 		{
@@ -82,8 +83,8 @@ int main()
 
 		case 4:
 			std::cout << "invalid";
-			}*/
-
+			}
+*/
 		
 
 
@@ -103,6 +104,44 @@ int main()
 
 	//Example 6
 
+int plus;
+int min;
+int div;
+int tim;
+int mod;
+int a;
+int b;
+char cama; std::cin >> a >> cama >> b;
+switch ((int)cama) {
+
+case 43:
+	std::cout << a + b;
+
+	break;
+
+case 45:
+	std::cout << a - b;
+
+
+	break;
+case 47:
+
+	std::cout << a / b;
+
+	break;
+case 42:
+
+	std::cout << a * b;
+
+
+	break;
+case 37:
+
+	std::cout << a % b;
+	break;
+default:
+	;
+}
 
 
 
@@ -110,6 +149,10 @@ int main()
 
 
 
+
+
+
+//example 7
 
 
 
@@ -127,11 +170,17 @@ int main()
 		g.true
 		h.true
 		i.true
-		j
+		jfalse
 */
 
 
+	//Example 9
 
+	//a.true
+	//	b.false
+	//	c.false
+	//	d.true
+	//	e.true
 
 	system("pause");
 	return 0;
