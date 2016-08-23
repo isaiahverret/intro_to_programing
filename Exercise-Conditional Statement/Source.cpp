@@ -1,6 +1,6 @@
 #include <iostream>
 int main()
-{
+//{
 
 	//Example 1
 
@@ -48,7 +48,7 @@ int main()
 	int sum = cama[0] + cama[1] + cama[2];
 	if (sum = 0)
 	{
-		for (int i = 2; i >= 0; j--)
+		for (int i = 2; i >= 0; i--)
 		{
 			for (int j = 2; j >= 0; j--)
 			{
@@ -57,7 +57,7 @@ int main()
 					int temp;
 					temp = cama[j];
 					cama[j] = cama[j - 1];
-					cama[j - 1] = temp
+					cama[j - 1] = temp;
 				}
 			}
 		}
@@ -82,7 +82,7 @@ int main()
 	}
 	else
 
-		std::cout << cama[0] << std::endl << cama [1] 
+		std::cout << cama[0] << std::endl << cama[1] << std::endl << cama[2] << std::endl;
 
 
 
