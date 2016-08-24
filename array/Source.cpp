@@ -19,8 +19,8 @@ int main()
 	//example 2 
 //a
 	/*int values[] = { 2, 6, 10, 14 };
-	std::cout << values[2];
-*/
+	//std::cout << values[2];
+
 	//10
 //b
 	/*int values[] = { 2, 6, 10, 14 };
@@ -61,6 +61,8 @@ int main()
 	//example 4 
 
 
+	//int num[5];
+	//int num = 0;
 
 
 
