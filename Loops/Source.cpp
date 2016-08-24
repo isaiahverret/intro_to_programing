@@ -85,19 +85,19 @@ for (int i = 100; i > 0; i--)
 
 	//c
 
-	////int cam = 100;
-	////for (int i = 0; i < cam; i++)
-	////	
-	////{
-	////	if (i % 3 == 0)
-	////		if (i % 5 == 0)
+	int cam = 100;
+	for (int i = 0; i < cam; i++)
+		
+	{
+		if (i % 3 && i % 5  == 0)
+			
 
-	////	{
-	////		printf("fizzbuzz");
+		{
+			printf("fizzbuzz");
 
-	////	}
-	////	std::cout << i << std::endl;
-	////}
+		}
+		std::cout << i << std::endl;
+	}
 
 	//example 3
 
