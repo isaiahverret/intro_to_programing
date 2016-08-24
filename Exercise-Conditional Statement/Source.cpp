@@ -43,7 +43,7 @@ int main()
 	////example 3
 	{
 
-	int cama[3];
+	/*int cama[3];
 	std::cin >> cama[0] >> cama[1] >> cama[2];
 	int sum = cama[0] + cama[1] + cama[2];
 	if (sum = 0)
@@ -85,7 +85,7 @@ int main()
 		std::cout << cama[0] << std::endl << cama[1] << std::endl << cama[2] << std::endl;
 
 
-
+*/
 
 
 
@@ -132,8 +132,8 @@ int main()
 
 
 
-	/*Example 6*/
-
+//	/*Example 6*/
+//
 //int plus;
 //int min;
 //int div;
@@ -172,7 +172,7 @@ int main()
 //default:
 //	;
 //}
-//
+
 
 
 
