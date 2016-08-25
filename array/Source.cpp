@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main()
+//int main()
 {
 	// exercise 1
 
@@ -77,88 +77,101 @@ int main()
 			//example 5
 
 
-	int cam[10];
-	int largenum = cam[0];
-	int smallnum = cam[0];
-	int i = 0;
-	std::cin >> cam[0];
-	std::cin >> cam[1];
-	std::cin >> cam[2];
-	std::cin >> cam[3];
-	std::cin >> cam[4];
-	std::cin >> cam[5];
-	std::cin >> cam[6];
-	std::cin >> cam[7];
-	std::cin >> cam[8];
-	std::cin >> cam[9];
+	//int cam[10];
 
-	for (i = 8; i < 0; i++);
-	{
-		if (largenum < cam[0])
-			largenum = cam[0];
+	//int i = 0;
+	//std::cin >> cam[0];
+	//std::cin >> cam[1];
+	//std::cin >> cam[2];
+	//std::cin >> cam[3];
+	//std::cin >> cam[4];
+	//std::cin >> cam[5];
+	//std::cin >> cam[6];
+	//std::cin >> cam[7];
+	//std::cin >> cam[8];
+	//std::cin >> cam[9];
+	//
+	//int largenum = cam[0];
+	//int smallnum = cam[0];
 
-		if (smallnum > cam[0])
-			smallnum = cam[0];
+	//for (i = 8; i < 0; i++);
+	//{
+	//	if (largenum < cam[0])
+	//		largenum = cam[0];
 
-		if (largenum < cam[1])
-			largenum = cam[1];
+	//	if (smallnum > cam[0])
+	//		smallnum = cam[0];
 
-		if (smallnum > cam[1])
-			smallnum = cam[1];
+	//	if (largenum < cam[1])
+	//		largenum = cam[1];
 
-		if (largenum < cam[2])
-			largenum = cam[2];
+	//	if (smallnum > cam[1])
+	//		smallnum = cam[1];
 
-		if (smallnum > cam[2])
-			smallnum = cam[2];
+	//	if (largenum < cam[2])
+	//		largenum = cam[2];
 
-		if (largenum < cam[3])
-			largenum = cam[3];
+	//	if (smallnum > cam[2])
+	//		smallnum = cam[2];
 
-		if (smallnum > cam[3])
-			smallnum = cam[3];
+	//	if (largenum < cam[3])
+	//		largenum = cam[3];
 
-		if (largenum < cam[4])
-			largenum = cam[4];
+	//	if (smallnum > cam[3])
+	//		smallnum = cam[3];
 
-		if (smallnum > cam[4])
-			smallnum = cam[4];
+	//	if (largenum < cam[4])
+	//		largenum = cam[4];
 
-		if (largenum < cam[5])
-			largenum = cam[5];
+	//	if (smallnum > cam[4])
+	//		smallnum = cam[4];
 
-		if (smallnum > cam[5])
-			smallnum = cam[5];
+	//	if (largenum < cam[5])
+	//		largenum = cam[5];
 
-		if (largenum < cam[6])
-			largenum = cam[6];
+	//	if (smallnum > cam[5])
+	//		smallnum = cam[5];
 
-		if (smallnum > cam[6])
-			smallnum = cam[6];
+	//	if (largenum < cam[6])
+	//		largenum = cam[6];
 
-		if (largenum < cam[7])
-			largenum = cam[7];
+	//	if (smallnum > cam[6])
+	//		smallnum = cam[6];
 
-		if (smallnum > cam[7])
-			smallnum = cam[7];
+	//	if (largenum < cam[7])
+	//		largenum = cam[7];
 
-		if (largenum < cam[8])
-			largenum = cam[8];
+	//	if (smallnum > cam[7])
+	//		smallnum = cam[7];
 
-		if (smallnum > cam[8])
-			smallnum = cam[8];
+	//	if (largenum < cam[8])
+	//		largenum = cam[8];
 
-		if (largenum < cam[9])
-			largenum = cam[9];
+	//	if (smallnum > cam[8])
+	//		smallnum = cam[8];
 
-		if (smallnum > cam[9])
-			smallnum = cam[9];
+	//	if (largenum < cam[9])
+	//		largenum = cam[9];
 
-		std::cout << largenum << smallnum;
+	//	if (smallnum > cam[9])
+	//		smallnum = cam[9];
+
+	//	std::cout << largenum << smallnum << std::endl;
+
+
+//example 6
+
+
+ 
+     int cam[3][3]; 
 
 
 
-}
+
+
+
+
+
 
 
 

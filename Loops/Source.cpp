@@ -17,7 +17,7 @@ int main()
 //b
 
 
-
+//
 //int cam = 100;
 //for (int i = 99; i > -1; i--)
 //{
@@ -85,27 +85,29 @@ for (int i = 100; i > 0; i--)
 
 	//c
 
-	int cam = 100;
-	for (int i = 0; i < cam; i++)
-		
+	/*int i;
+	for( i = 0; i <= 100; i++)
+	if(i % 3 && i % 5 == 0)
 	{
-		if (i % 3 && i % 5  == 0)
-			
-
-		{
-			printf("fizzbuzz");
-
-		}
-		std::cout << i << std::endl;
+		std::cout << "fizzbuzz";
+		std::cout << '/n';
 	}
-
-	//example 3
-
-
-
-
-
-
+	else if (i % 3 == 0)
+	{
+		std::cout << " fizz ";
+		std::cout << '/n';
+	}
+	else if (i % 3 == 0)
+	{
+		std::cout << "buzz";
+		std::cout << '/n';
+	}
+	else if (i % 3 && i % 5 != 0)
+	{
+		std::cout << i;
+		std::cout <<'/n';
+	}
+*/
 //example 4
 
 //	int i = 100;
