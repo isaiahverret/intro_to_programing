@@ -185,8 +185,22 @@ int main()
 
 //Example 7 
 
-char A;
-char G;
+//char a;
+//char b;
+//
+//std::cout << "give me two letters" << std::endl;
+//
+//std::cin >> a;
+//std::cin >> b;
+//
+//char cama = a + b;
+//char camb = cama / 2;
+//
+//printf("%c \n", camb);
+//
+//
+//system("pause");
+//return 0;
 
 
 

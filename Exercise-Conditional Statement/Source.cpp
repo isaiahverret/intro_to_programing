@@ -133,45 +133,45 @@ int main()
 
 
 //	/*Example 6*/
-//
-//int plus;
-//int min;
-//int div;
-//int tim;
-//int mod;
-//int a;
-//int b;
-//char cama; std::cin >> a >> cama >> b;
-//switch ((int)cama) {
-//
-//case 43:
-//	std::cout << a + b;
-//
-//	break;
-//
-//case 45:
-//	std::cout << a - b;
-//
-//
-//	break;
-//case 47:
-//
-//	std::cout << a / b;
-//
-//	break;
-//case 42:
-//
-//	std::cout << a * b;
-//
-//
-//	break;
-//case 37:
-//
-//	std::cout << a % b;
-//	break;
-//default:
-//	;
-//}
+
+int plus;
+int min;
+int div;
+int tim;
+int mod;
+int a;
+int b;
+char cama; std::cin >> a >> cama >> b;
+switch ((int)cama) {
+
+case 43:
+	std::cout << a + b;
+
+	break;
+
+case 45:
+	std::cout << a - b;
+
+
+	break;
+case 47:
+
+	std::cout << a / b;
+
+	break;
+case 42:
+
+	std::cout << a * b;
+
+
+	break;
+case 37:
+
+	std::cout << a % b;
+	break;
+default:
+	;
+}
 
 
 
@@ -187,78 +187,78 @@ int main()
 
 
 
-		int month;
+		//int month;
 
 
-		std::cout << "give number" << std::endl;
+		//std::cout << "give number" << std::endl;
 
-		std::cin >> month;
+		//std::cin >> month;
 
-		switch (month)
-		{
-		case 1:
-		{
-			printf("january - 31 days \n");
-			break;
-		}
-		case 2:
-		{
-			printf("february - 29 days on leap year   28 on reg  \n");
-			break;
-		}
-		case 3:
-		{
-			printf("march - 31 days \n");
-			break;
-		}
-		case 4:
-		{
-			printf("april - 30 days \n");
-			break;
-		}
-		case 5:
-		{
-			printf("may - 31 days \n");
-			break;
-		}
-		case 6:
-		{
-			printf("june- 30 days \n");
-			break;
-		}
-		case 7:
-		{
-			printf("july - 31 days \n");
-			break;
-		}
-		case 8:
-		{
-			printf("august - 31 days \n");
-			break;
-		}
-		case 9:
-		{
-			printf("september - 30 days \n");
-			break;
-		}
-		case 10:
-		{
-			printf("october - 31 days \n");
-			break;
-		}
-		case 11:
-		{
-			printf("november - 30 days \n");
-			break;
-		}
-		case 12:
-		{
-			printf("december - 31 days \n");
-			break;
-		}
-		default:
-			printf("invalid");
-		}
+		//switch (month)
+		//{
+		//case 1:
+		//{
+		//	printf("january - 31 days \n");
+		//	break;
+		//}
+		//case 2:
+		//{
+		//	printf("february - 29 days on leap year   28 on reg  \n");
+		//	break;
+		//}
+		//case 3:
+		//{
+		//	printf("march - 31 days \n");
+		//	break;
+		//}
+		//case 4:
+		//{
+		//	printf("april - 30 days \n");
+		//	break;
+		//}
+		//case 5:
+		//{
+		//	printf("may - 31 days \n");
+		//	break;
+		//}
+		//case 6:
+		//{
+		//	printf("june- 30 days \n");
+		//	break;
+		//}
+		//case 7:
+		//{
+		//	printf("july - 31 days \n");
+		//	break;
+		//}
+		//case 8:
+		//{
+		//	printf("august - 31 days \n");
+		//	break;
+		//}
+		//case 9:
+		//{
+		//	printf("september - 30 days \n");
+		//	break;
+		//}
+		//case 10:
+		//{
+		//	printf("october - 31 days \n");
+		//	break;
+		//}
+		//case 11:
+		//{
+		//	printf("november - 30 days \n");
+		//	break;
+		//}
+		//case 12:
+		//{
+		//	printf("december - 31 days \n");
+		//	break;
+		//}
+		//default:
+		//	printf("invalid");
+		//}
 	
 
 
