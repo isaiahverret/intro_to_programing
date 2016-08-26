@@ -2,11 +2,11 @@
 #include <cstdlib>
 #include <time.h>
 
-int Rand = 0;
-int cam;
-int i;
-
-int main()
+//int Rand = 0;
+//int cam;
+//int i;
+//
+//int main()
  //Example 1
 //
 //void PrintInteger(int variable)
@@ -116,29 +116,27 @@ toss the coin, and then simulates the tossing of the coin that number of times.
 
 
 
-
-int CoinToss()
-
-{
-
-	for (int i = 0; i < Rand; i++)
-	{
-		Rand = Rand();
-		if (Rand % 2 == 0)
-		{
-			std::cout << "tails" << std::endl;
-		}
-
-		else
-		{
-			std::cout << "heads" << std::endl;
-
-		}
-	}
-	return 0;
-}
-
-
+//
+//int CoinToss()
+//
+//{
+//
+//	for (int i = 0; i < Rand; i++)
+//	{
+//		Rand = Rand();
+//		if (Rand % 2 == 0)
+//		{
+//			std::cout << "tails" << std::endl;
+//		}
+//
+//		else
+//		{
+//			std::cout << "heads" << std::endl;
+//
+//		}
+//	}
+//	return 0;
+//}
 
 
 
@@ -158,5 +156,7 @@ int CoinToss()
 
 
 
+
+//
 //	system("pause")
 //}

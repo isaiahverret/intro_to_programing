@@ -83,44 +83,75 @@ for (int i = 100; i > 0; i--)
 
 
 
-	//c
+	//c 
 
-	int cam = 100;
-	for (int i = 0; i <= 100; i++)
+
+
+	/*Using a for loop, iterate through numbers 0 to 100.
+		- For multiples of 3 print “Fizz”
+		- For multiples of 5 print “Buzz”
+		- For multiples of 3 and 5 print “FizzBuzz”
+		- Otherwise print the number.*/
+
+	//int cam = 100;
+	//for (int i = 0; i <= 100; i++)
+	//{
+	//	 if (i % 3 == 0 && i % 5 == 0)
+	//	{
+	//		printf("fizzbuzz");
+	//	}
+	//	else if (i % 5 == 0)
+	//	{
+	//		printf("buzz");
+	//	}
+	//	else if (i % 3 == 0)
+	//	{	
+	//		printf("fizz");
+	//	}
+	//
+	//	std::cout << i << std::endl;
+	//}
+	
+
+
+//example 3
+
+
+/*If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum
+of these multiples is 23.
+Find the sum of all the multiples of 3 or 5 below 1000.*/
+
+	int cam = 0;
+	int i = 0;
+	
+for (int i = 0; i < 1000; i++)
 	{
-		if (i % 3 == 0)
-		{
-			printf("fizz");
-		}
-		else if (i % 5 == 0)
-		{
-			printf("buzz");
-		}
-		else if (i % 5 && 3 == 0)
-		{
-			printf("fizzbuzz");
-		}
-	
-		std::cout << i << std::endl;
+	if (i % 3 == 0 || i % 5 == 0)
+	{
+		cam += i;
 	}
-	
+	else
+		std::cout << "/n" << i;
+	}
+
 	
 
 	
 		
 
 //example 4
-
-//	int i = 100;
-//	while (i = 100)
 //
-//		i > -1; i--;
+//int a = 0;
+//while (a = 100)
+//{
 //
-//	{
-//std::cout << i << std::endl;
+//int cam = 100;
+//
+//
+//	for (int i = 100; i > -1; i--)
+//	std::cout << i << std::endl;
 //}
 
-	
 
 			
 		
