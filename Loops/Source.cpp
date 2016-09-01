@@ -6,12 +6,12 @@ int main()
 	//example 1
 	//a
 
-	/*int cam = 100;
-	for (int i = 100; i > -1; i--)
-	{
-		std::cout << i << std::endl;
-	}
-*/
+	//int cam = 100;
+	//for (int i = 100; i > -1; i--)
+	//{
+	//	std::cout << i << std::endl;
+	//}
+
 
 
 //b
@@ -85,24 +85,24 @@ for (int i = 100; i > 0; i--)
 
 	//c
 
-	int cam = 100;
-	for (int i = 0; i <= 100; i++)
-	{
-		if (i % 3 == 0)
-		{
-			printf("fizz");
-		}
-		else if (i % 5 == 0)
-		{
-			printf("buzz");
-		}
-		else if (i % 5 && 3 == 0)
-		{
-			printf("fizzbuzz");
-		}
-	
-		std::cout << i << std::endl;
-	}
+	//int cam = 100;
+	//for (int i = 0; i <= 100; i++)
+	//{
+	//	if (i % 3 == 0)
+	//	{
+	//		printf("fizz");
+	//	}
+	//	else if (i % 5 == 0)
+	//	{
+	//		printf("buzz");
+	//	}
+	//	else if (i % 5 && 3 == 0)
+	//	{
+	//		printf("fizzbuzz");
+	//	}
+	//
+	//	std::cout << i << std::endl;
+	//}
 	
 	
 
@@ -111,19 +111,19 @@ for (int i = 100; i > 0; i--)
 
 //example 4
 
-//	int i = 100;
-//	while (i = 100)
-//
-//		i > -1; i--;
-//
-//	{
-//std::cout << i << std::endl;
-//}
 
-	
+int i = 0;
+int a = 100;
+while (a = 100)
+{
 
-			
-		
+	int cam = 100;
+	for (int i = 100; i > -1; i--);
+}
+
+	std::cout << a << std::endl;
+	std::cout << i << std::endl;
+
  
 
 
