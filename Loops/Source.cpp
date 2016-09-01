@@ -103,6 +103,38 @@ for (int i = 100; i > 0; i--)
 	//
 	//	std::cout << i << std::endl;
 	//}
+
+
+
+// example 3
+
+/*int ray[1000];
+int sum = 0;
+for (int i = 0; i < 1000; i++)
+{
+	if (i % 3 == 0 && i % 5 != 0)
+	{
+		ray[i] = i;
+	}
+	else if (i % 5 == 0 && i % 3 != 0)
+	{
+		ray[i] = i;
+	}
+	else
+	{
+		ray[i] = 0;
+	}
+}
+for (int i = 0; i < 1000; i++)
+{
+	sum = ray[i] + sum;
+}
+std::cout << sum << std::endl*/;
+
+
+	
+
+
 	
 	
 
@@ -112,17 +144,16 @@ for (int i = 100; i > 0; i--)
 //example 4
 
 
-int i = 0;
-int a = 100;
-while (a = 100)
+int a = 0;
+while (a < 100)
 {
 
 	int cam = 100;
 	for (int i = 100; i > -1; i--);
 }
+         
 
 	std::cout << a << std::endl;
-	std::cout << i << std::endl;
 
  
 
