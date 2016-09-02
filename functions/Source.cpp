@@ -111,7 +111,8 @@ display of either “heads” or “tails”. The rand() can be added by adding
 
 to the top of your program. It returns a random number between 0 and 32767.
 Demonstrate the function in a program that asks the user how many times they want to
-toss the coin, and then simulates the tossing of the coin that number of times.
+toss the coin, and then simulates the tossing of the coin that number of times.
+
 */
 
 
