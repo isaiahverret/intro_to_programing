@@ -87,21 +87,24 @@ int main()
 	//c
 
 	//int cam = 100;
-	//for (int i = 0; i <= 100; i++)
+	//for (int i = 0; i < 100; i++)
 	//{
-	//	if (i % 3 == 0)
+	//	if (i % 5 == 0 && i % 3 == 0)
 	//	{
-	//		printf("fizz");
+	//		
+	//		std::cout << "fizzbuzz" << std::endl;
+	//	}
+	//	else if (i % 3 == 0)
+	//	{
+	//		
+	//		std::cout << "fizz" << std::endl;
 	//	}
 	//	else if (i % 5 == 0)
 	//	{
-	//		printf("buzz");
+	//		
+	//	std::cout << "buzz" << std::endl;
 	//	}
-	//	else if (i % 5 && 3 == 0)
-	//	{
-	//		printf("fizzbuzz");
-	//	}
-	//
+	//	else
 	//	std::cout << i << std::endl;
 	//}
 
@@ -144,35 +147,35 @@ int main()
 
 	//example 4
 	
-	int i = 0;
-	int sam[1000];
-	int sum = 0;
+	//int i = 0;
+	//int sam[1000];
+	//int sum = 0;
 
-	while (i < 1000)
-	{
+	//while (i < 1000)
+	//{
 
-		if (i % 3 == 0 && i % 5 != 0)
-		{
-			sam[i] = i;
-		}
-		else if (i % 5 == 0 && i % 3 != 0)
-		{
-			sam[i] = i;
-		}
-		else
-		{
-			sam[i] = 0;
-		}
-		i++;
-	}
-	i = 0;
+	//	if (i % 3 == 0 && i % 5 != 0)
+	//	{
+	//		sam[i] = i;
+	//	}
+	//	else if (i % 5 == 0 && i % 3 != 0)
+	//	{
+	//		sam[i] = i;
+	//	}
+	//	else
+	//	{
+	//		sam[i] = 0;
+	//	}
+	//	i++;
+	//}
+	//i = 0;
 
-	while (i < 1000)
-	{
-		sum = sam[i] + sum;
-		i++;
-	}
-	std::cout << sum << std::endl;
+	//while (i < 1000)
+	//{
+	//	sum = sam[i] + sum;
+	//	i++;
+	//}
+	//std::cout << sum << std::endl;
 
 
 
