@@ -116,28 +116,26 @@ toss the coin, and then simulates the tossing of the coin that number of times.
 */
 
 
+int CoinToss()
 
-//
-//int CoinToss()
-//
-//{
-//
-//	for (int i = 0; i < Rand; i++)
-//	{
-//		Rand = Rand();
-//		if (Rand % 2 == 0)
-//		{
-//			std::cout << "tails" << std::endl;
-//		}
-//
-//		else
-//		{
-//			std::cout << "heads" << std::endl;
-//
-//		}
-//	}
-//	return 0;
-//}
+{
+
+	for (int i = 0; i < Rand; i++)
+	{
+		Rand = Rand();
+		if (Rand % 2 == 0)
+		{
+			std::cout << "tails" << std::endl;
+		}
+
+		else
+		{
+			std::cout << "heads" << std::endl;
+
+		}
+	}
+
+
 
 
 

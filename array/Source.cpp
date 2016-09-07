@@ -205,9 +205,36 @@ int main()
 
 
 		 
+//Daenerys Targaryen wants to keep track of how many kilos of food her three dragons eat
+//each day during a typical week.Write a program that stores this information in a 2
+//dimensional 3 x 7 array, where each row represents a different dragon and each column
+//represents a different day of the week.The program should first have Dany input the user
+//for each dragon.Then it should create a report that includes the following information :
+//-Average amount of food eaten per day by all the dragons together
+//- average amount of food eaten per day by any one dragon
+//- the greatest amount of food eaten during one day and which dragon that was
+//- the least amount of food eaten during one day and which dragon that was
 
 
+int cam[3][7] = {
+	{ 22, 24, 20, 27, 21, 23, 24 }, // reg dragon
+	{ 12,  11, 8, 10, 7, 8, 11 },  //baby dragon 
+	{ 44,  34, 37, 50, 52, 49, 55 },   // fat dragin
+};
 
+for (int i = 0; i < 3; i++)
+{
+	if (i > 0)
+		std::cout << std::endl;
+	for (int a = 0; a < 7; a++)
+	{
+		std::cout << cam[i][a] << " | ";
+	}
+
+
+}
+
+float avgateperday;
 
 
 
