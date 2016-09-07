@@ -1,6 +1,7 @@
 #include <iostream>
 
 int main()
+{
 
 
 	// exercise 1
@@ -111,23 +112,25 @@ int main()
 // a program that creates a small 3x3 array of integers.Use a nested for loop to initialise
 //the numbers 1 - 9. Output the numbers in a grid format.
  
-//
+
 //int cam[3][3] = {
 //	{ 1, 2, 3 },
 //	{ 4, 5, 6, }, 
 //	{ 7, 8, 9  }, 
 //};
-//for (int i = 0; i < 3; i++)
-//{
-//	if (i > 0)
-//		std::cout << std::endl;
-//	for (int a = 0; a < 3; a++)
+//
+//	for (int i = 0; i < 3; i++)
 //	{
-//		std::cout << cam[i][a] << " | ";
-//	}
+//		if (i > 0)
+//			std::cout << std::endl;
+//		for (int a = 0; a < 3; a++)
+//		{
+//			std::cout << cam[i][a] << " | ";
+//		}
+//	
 //
 //}
-//
+
 
 
 
@@ -141,30 +144,24 @@ int main()
 ///Write code that sums each column in the array and displays the results
 
 
-int days[29][5] = {
-	{ 1, 2, 3, 4, 5, },
-	{ 6, 7, 8, 9, 10 },
-	{ 11, 12, 13, 14, 15, },
-	{ 16, 17, 18 ,19 ,20 },
-	{ 21, 22 ,23 ,24 ,25 },
-	{ 26, 27, 28 ,29 ,30 },
-	{},
-	{},
-	{},
-
-};
-
-
-for (int i = 0; i < 29; i++)
-{
-	if (i > 0)
-		std::cout << std::endl;
-	for (int a = 0; a < 5; a++)
-	{
-		std::cout << days[i][a] << " | ";
-	}
-
-}
+//int days[29][5];
+//for (days[i]; days[i] < 5; days[i]++)
+//{
+//	for(days[i][j]; days[i][j] < 29; days[i][j]++)
+//}
+//
+//
+//
+//for (int i = 0; i < 29; i++)
+//{
+//	if (i > 0)
+//		std::cout << std::endl;
+//	for (int a = 0; a < 5; a++)
+//	{
+//		std::cout << days[i][a] << " | ";
+//	}
+//
+//}
 
 
 
