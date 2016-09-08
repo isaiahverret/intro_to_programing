@@ -4,14 +4,39 @@
 
 
 
-int Rand = 0;
-int num;
-int cam;
-int i;
-
-int main()
- //Example 1
+//int Rand = 0;
+//int num;
+//int cam;
+//int i;
 //
+//int main()
+ ///Example 1
+
+///What is the output of this program ?  /// _________________________________________________  /// |  #include <iostream>                          |
+  /// |  void PrintInteger(int variable)              |
+  /// |  {                                            |
+  /// | std::cout << variable << std::endl;           |
+  /// |   }                                           |
+  /// |  int main()                                   |
+  /// |   {                                           |
+  /// |	     int the_variable = 1;                    | 
+  /// |	    PrintInteger(the_variable);            |
+  /// |	    {                                         |
+  /// |		    PrintInteger(the_variable);           |
+  /// |		    int the_variable = 2;                 |
+  /// |		    PrintInteger(the_variable);           |
+  /// |		   {                                      |
+  /// |			   PrintInteger(the_variable);        |
+  /// |			   int the_variable = 3;              |
+  /// |			    PrintInteger(the_variable);       |
+  /// |		     }                                    |
+  /// |		    PrintInteger(the_variable);           |
+  /// |	      }                                       |
+  /// |	    PrintInteger(the_variable);               |
+  /// |      }                                        |  /// |_______________________________________________|
+
+
+
 //void PrintInteger(int variable)
 //{
 //	std::cout << variable << std::endl;
