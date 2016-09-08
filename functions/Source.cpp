@@ -2,11 +2,14 @@
 #include <cstdlib>
 #include <time.h>
 
-//int Rand = 0;
-//int cam;
-//int i;
-//
-//int main()
+
+
+int Rand = 0;
+int num;
+int cam;
+int i;
+
+int main()
  //Example 1
 //
 //void PrintInteger(int variable)
@@ -73,11 +76,10 @@
 
 
 
-//example 4
-/*
-The following statement calls a function named Half. The Half function returns a value that
-is half that of the argument. Write the function
-*/
+///example 4
+
+///The following statement calls a function named Half. The Half function returns a value that
+///is half that of the argument. Write the function
 
 
 
@@ -102,28 +104,30 @@ is half that of the argument. Write the function
 
 // example 5
 
-/*
-Write a function named CoinToss that simulates the tossing of a coin.
-The function should use the standard library rand() function in order to generate a
-display of either “heads” or “tails”. The rand() can be added by adding
 
-#include <cstdlid>
+///Write a function named CoinToss that simulates the tossing of a coin.
+///The function should use the standard library rand() function in order to generate a
+///display of either “heads” or “tails”. The rand() can be added by adding
 
-to the top of your program. It returns a random number between 0 and 32767.
-Demonstrate the function in a program that asks the user how many times they want to
-toss the coin, and then simulates the tossing of the coin that number of times.
+///#include <cstdlid>
 
-*/
+///to the top of your program. It returns a random number between 0 and 32767.
+///Demonstrate the function in a program that asks the user how many times they want to
+///toss the coin, and then simulates the tossing of the coin that number of times.
+
+
 
 
 int CoinToss()
+ 
 
 {
-
-	for (int i = 0; i < Rand; i++)
+	int rand();
+	int num;
+	for (int i = 0; num > i; i++)
 	{
-		Rand = Rand();
-		if (Rand % 2 == 0)
+		num = rand();
+		if (num % 2 == 0)
 		{
 			std::cout << "tails" << std::endl;
 		}
@@ -131,9 +135,10 @@ int CoinToss()
 		else
 		{
 			std::cout << "heads" << std::endl;
+		}
 
 		}
-	}
+	
 
 
 
@@ -156,6 +161,7 @@ int CoinToss()
 
 
 
-//
-//	system("pause")
-//}
+
+system("pause");
+return 0;
+}
