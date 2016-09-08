@@ -2,7 +2,8 @@
 #include <cstdlib>
 #include <time.h>
 
-
+int main()
+{
 
 //int Rand = 0;
 //int num;
@@ -143,13 +144,13 @@
 
 
 
-int CoinToss()
+int CoinToss();
  
 
 {
 	int rand();
 	int num;
-	for (int i = 0; num > i; i++)
+	for (int i = 0; 10 > i; i++)
 	{
 		num = rand();
 		if (num % 2 == 0)
@@ -161,8 +162,8 @@ int CoinToss()
 		{
 			std::cout << "heads" << std::endl;
 		}
-
-		}
+	}
+}
 	
 
 
