@@ -144,27 +144,27 @@ int main()
 
 
 
-int CoinToss();
- 
-
-{
-	int rand();
-	int num;
-	for (int i = 0; 10 > i; i++)
-	{
-		num = rand();
-		if (num % 2 == 0)
-		{
-			std::cout << "tails" << std::endl;
-		}
-
-		else
-		{
-			std::cout << "heads" << std::endl;
-		}
-	}
-}
-	
+//int CoinToss();
+// 
+//
+//{
+//	int rand();
+//	int num;
+//	for (int i = 0; 200 > i; i++)
+//	{
+//		num = rand();
+//		if (num % 2 == 0)
+//		{
+//			std::cout << "tails" << std::endl;
+//		}
+//
+//		else
+//		{
+//			std::cout << "heads" << std::endl;
+//		}
+//	}
+//}
+//	
 
 
 
