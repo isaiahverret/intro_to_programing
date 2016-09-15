@@ -79,7 +79,8 @@ int main()
 
 		///example 3
 
-	///Write a for loop to initialize the following array(int data[10]) with the values 10, 9, 8…(Etc)
+	///Write a for loop to initialize the following array(int data[10]) with the values 10, 9, 8…(Etc)
+
 
 		/*int data[10];
 		for (int data = 10; data > 0; data--)

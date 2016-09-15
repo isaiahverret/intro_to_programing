@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "intro to programing1", "intro to programing1\intro to programing1.vcxproj", "{22D3A619-0FED-4AC9-907C-CDB76EC7C4B9}"
 EndProject
@@ -22,6 +22,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "class", "class\class.vcxproj", "{C5FECD7C-3AEF-4157-A192-FA1B1F385654}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "references", "references\references.vcxproj", "{1C284219-D42E-48F3-9477-612D5D24942B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pointers", "pointers\pointers.vcxproj", "{8B59C5F6-D051-4D53-A7A8-FBAEA1B3A795}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,14 @@ Global
 		{1C284219-D42E-48F3-9477-612D5D24942B}.Release|x64.Build.0 = Release|x64
 		{1C284219-D42E-48F3-9477-612D5D24942B}.Release|x86.ActiveCfg = Release|Win32
 		{1C284219-D42E-48F3-9477-612D5D24942B}.Release|x86.Build.0 = Release|Win32
+		{8B59C5F6-D051-4D53-A7A8-FBAEA1B3A795}.Debug|x64.ActiveCfg = Debug|x64
+		{8B59C5F6-D051-4D53-A7A8-FBAEA1B3A795}.Debug|x64.Build.0 = Debug|x64
+		{8B59C5F6-D051-4D53-A7A8-FBAEA1B3A795}.Debug|x86.ActiveCfg = Debug|Win32
+		{8B59C5F6-D051-4D53-A7A8-FBAEA1B3A795}.Debug|x86.Build.0 = Debug|Win32
+		{8B59C5F6-D051-4D53-A7A8-FBAEA1B3A795}.Release|x64.ActiveCfg = Release|x64
+		{8B59C5F6-D051-4D53-A7A8-FBAEA1B3A795}.Release|x64.Build.0 = Release|x64
+		{8B59C5F6-D051-4D53-A7A8-FBAEA1B3A795}.Release|x86.ActiveCfg = Release|Win32
+		{8B59C5F6-D051-4D53-A7A8-FBAEA1B3A795}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
